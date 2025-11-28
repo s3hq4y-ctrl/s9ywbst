@@ -49,13 +49,13 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "s9y",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "sai", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
@@ -135,7 +135,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "美しいミズキ", // 主页横幅主标题
+			title: "打开窗户，迎接第一缕晨风", // 主页横幅主标题
 
 			subtitle: [
 				"特別なことはないけど、君がいると十分です",
@@ -240,23 +240,29 @@ export const navBarConfig: NavBarConfig = {
 			url: "/links/",
 			icon: "material-symbols:link",
 			children: [
+				//{
+				//	name: "GitHub",
+				//	url: "https://github.com/matsuzaka-yuki/Mizuki",
+				//	external: true,
+				//	icon: "fa6-brands:github",
+				//},
+				//{
+				//	name: "Bilibili",
+				//	url: "https://space.bilibili.com/701864046",
+				//	external: true,
+				//	icon: "fa6-brands:bilibili",
+				//},
+				//{
+				//	name: "Gitee",
+				//	url: "https://gitee.com/matsuzakayuki/Mizuki",
+				//	external: true,
+				//	icon: "mdi:git",
+				//},
 				{
-					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					name: "Zhihu",
+					url: "https://www.zhihu.com/people/9pndoy",
 					external: true,
-					icon: "fa6-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
-					external: true,
-					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
+					icon: "fa6-brands:zhihu",
 				},
 			],
 		},
@@ -340,30 +346,30 @@ export const profileConfig: ProfileConfig = {
 	},
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			name: "Zhihu",
+			icon: "fa6-brands:zhihu",
+			url: "https://www.zhihu.com/people/9pndoy",
 		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
-		},
+		//{
+		//	name: "Gitee",
+		//	icon: "mdi:git",
+		//	url: "https://gitee.com/matsuzakayuki",
+		//},
+		//{
+		//	name: "GitHub",
+		//	icon: "fa6-brands:github",
+		//	url: "https://github.com/matsuzaka-yuki",
+		//},
+		//{
+		//	name: "Codeberg",
+		//	icon: "simple-icons:codeberg",
+		//	url: "https://codeberg.org",
+		//},
+		//{
+		//	name: "Discord",
+		//	icon: "fa6-brands:discord",
+		//	url: "https://discord.gg/MqW6TcQtVM",
+		//},
 	],
 };
 
@@ -609,7 +615,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Mizuki Website!", // 欢迎词
+		welcome: "Welcome to s9y!", // 欢迎词
 		touch: [
 			"What are you doing?",
 			"Stop touching me!",
