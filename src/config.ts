@@ -337,9 +337,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
-	bio: "The world is big, you have to go and see",
+	avatar: "https://pic1.zhimg.com/v2-29cbada99e81f3069bae7e504f8cc38e_xl.jpg?source=32738c0c&needBackground=1", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "s9y",
+	bio: "跪了",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
