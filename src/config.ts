@@ -615,17 +615,17 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to s9y!", // 欢迎词
+		welcome: "欢迎来到 s9y!", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"你在干什么?",
+			"别碰我!",
 			"HENTAI!",
-			"Don't bully me like that!",
+			"你好!",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
+		home: "回到首页!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
 		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		link: "https://www.zhihu.com/people/9pndoy", // 关于链接
 	},
 };
 
